@@ -50,14 +50,16 @@ A Python tool that analyzes Google Search Console data to identify content requi
    - Add your service account to your Search Console property
    - Grant necessary permissions
 
-For setup of GCP and Search Console, please also refer to: [https://progzakki.sanachan.com/develop-software/environment/setup-gcp-for-search-console-api/](https://progzakki.sanachan.com/develop-software/environment/setup-gcp-for-search-console-api/)
+For setup of GCP and Search Console, please also refer to:
+
+[https://progzakki.sanachan.com/develop-software/environment/setup-gcp-for-search-console-api/](https://progzakki.sanachan.com/develop-software/environment/setup-gcp-for-search-console-api/)
 
 ## Usage
 
 1. Place your `key_file.json` in the project root directory
 
 2. Update the configuration in `main.py`:
-   ````python
+   ```python
    API_MAX_ROWS = 1000
    (snip)
    SITE_URL = 'https://your-site.com/'
